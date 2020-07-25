@@ -13,6 +13,7 @@
 		8D5DF05824CBC43F00FCD83D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5DF05624CBC43F00FCD83D /* Main.storyboard */; };
 		8D5DF05A24CBC44100FCD83D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D5DF05924CBC44100FCD83D /* Assets.xcassets */; };
 		8D5DF05D24CBC44100FCD83D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D5DF05B24CBC44100FCD83D /* LaunchScreen.storyboard */; };
+		8D5DF06524CBC48200FCD83D /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8D5DF06424CBC48200FCD83D /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D5DF05924CBC44100FCD83D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D5DF05C24CBC44100FCD83D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D5DF05E24CBC44100FCD83D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D5DF06424CBC48200FCD83D /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8D5DF05024CBC43F00FCD83D /* AppDelegate.swift */,
 				8D5DF05224CBC43F00FCD83D /* SceneDelegate.swift */,
 				8D5DF05424CBC43F00FCD83D /* ViewController.swift */,
+				8D5DF06424CBC48200FCD83D /* Shader.metal */,
 				8D5DF05624CBC43F00FCD83D /* Main.storyboard */,
 				8D5DF05924CBC44100FCD83D /* Assets.xcassets */,
 				8D5DF05B24CBC44100FCD83D /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D5DF06524CBC48200FCD83D /* Shader.metal in Sources */,
 				8D5DF05524CBC43F00FCD83D /* ViewController.swift in Sources */,
 				8D5DF05124CBC43F00FCD83D /* AppDelegate.swift in Sources */,
 				8D5DF05324CBC43F00FCD83D /* SceneDelegate.swift in Sources */,
